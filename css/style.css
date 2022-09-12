@@ -669,3 +669,123 @@ body {
 .main-code__course ol li a:hover {
     background-size: 100% 2px;
 }
+
+.main-educproj {
+    display: flex;
+}
+
+.main-educproj__educ {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ff9c1b;
+    border-radius: 6px;
+    box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.main-educproj__educ h2 {
+    font-size: 30px;
+    color: #222235;
+    text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+    margin: 0;
+}
+
+.main-educproj__educ ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+.main-educproj__educ ul li {
+    margin-bottom: 10px;
+}
+
+.main-educproj__educ ul li p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main-educproj__educ ul li h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #222235;
+    text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.main-educproj__proj {
+    width: 50%;
+    margin: 35px 0 0 35px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ff9c1b;
+    border-radius: 6px;
+    box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.main-educproj__proj h2 {
+    font-size: 30px;
+    color: #222235;
+    text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+    margin: 0;
+}
+
+.main-educproj__proj ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+.main-educproj__proj ul li {
+    margin-bottom: 10px;
+}
+
+.main-educproj__proj ul li a {
+    color: #222235;
+    text-decoration: none;
+    background-image: linear-gradient(#000, #000);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0 2px;
+    transition: background-size 0.3s;
+}
+
+.main-educproj__proj ul li a:hover {
+    background-size: 100% 2px;
+}
+
+.main-educproj__proj ul li p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main-educproj__proj ul li h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #222235;
+    text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.footer {
+    margin: 35px 0;
+    padding: 20px;
+    background-color: #ff9c1b;
+    border-radius: 6px;
+    box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-linkgit img {
+    height: 50px;
+}
+
+.footer-year {
+    font-size: 14px;
+}
+
+.footer-linkrs img {
+    height: 50px;
+}
