@@ -586,3 +586,86 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
+
+.main-code {
+    display: flex;
+}
+
+.main-code__codeexample {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    padding: 20px;
+    background-color: #ff9c1b;
+    border-radius: 6px;
+    box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.main-code__codeexample h2 {
+    font-size: 30px;
+    color: #222235;
+    margin: 0;
+    text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.main-code__codeexample pre {
+    display: flex;
+    background-color: #222235;
+    color: #ff9c1b;
+    border-radius: 6px;
+}
+
+.main-code__codeexample pre code {
+    font-size: 16px;
+}
+
+.main-code__codeexample pre code .function {
+    color: #76ff7b;
+}
+
+.main-code__codeexample pre code .multi {
+    color: #ff79fb;
+}
+
+.main-code__codeexample pre code .mark {
+    color: #e5ff00;
+}
+
+.main-code__codeexample pre code span {
+    color: #fff;
+}
+
+.main-code__course {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px 0 0 35px;
+    padding: 20px;
+    background-color: #ff9c1b;
+    border-radius: 6px;
+    box-shadow: 16px 16px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.main-code__course h2 {
+    font-size: 30px;
+    color: #222235;
+    margin: 0;
+    text-shadow: 6px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.main-code__course ol {
+    padding: 10px 0 0 20px;
+}
+
+.main-code__course ol li a {
+    color: #222235;
+    text-decoration: none;
+    background-image: linear-gradient(#000, #000);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0 2px;
+    transition: background-size 0.3s;
+}
+
+.main-code__course ol li a:hover {
+    background-size: 100% 2px;
+}
